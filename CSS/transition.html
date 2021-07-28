@@ -1,0 +1,34 @@
+<!--transition:
+from one state to another 
+transition property
+transition duration
+transition: transition-property transition-duration transition-timing-function transition-delay;
+transition delay
+transition-timing-function:ease,linear,ease-in,ease-out,ease-in-out
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.aa{
+			width: 100px;
+			height: 100px;
+			background-color: cadetblue;
+			transition: width 6s linear 2s;
+			/*transition-property: width;
+			transition-duration: 4s;
+			transition-delay: 2s;
+			transition-timing-function: linear ;*/
+		}
+		.aa:hover{
+			width: 300px;
+			background-color: hotpink;
+		}
+	</style>
+	<meta charset="utf-8">
+	<title>transition</title>
+</head>
+<body>
+	<div class="aa"></div>
+</body>
+</html>
