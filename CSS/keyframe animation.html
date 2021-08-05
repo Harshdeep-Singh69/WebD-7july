@@ -1,0 +1,29 @@
+<!--animation:to move/to change its state
+	-->
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			background-color: magenta;
+			position: relative;
+			/*	-webkit-animation: gaurav;*/
+			animation: gaurav 8s infinite ;
+		}
+		@keyframes gaurav{
+			0%{left: 0px;top: 0px;}
+			25%{background: tomato;  left: 1200px;top: 0px;}
+			50%{background: chocolate;  left: 1200px;top:400px;}
+			75%{background: darkred;  left: 0px;top:400px;}
+			100%{left: 0px;top: 0px;}
+		}
+	</style>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div></div>
+</body>
+</html>	
