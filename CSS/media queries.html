@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#aa{
+			width: 800px;
+			height: 300px;
+			background-color: blue;
+			float: left;
+		}
+		#ab{
+			width: 40%;
+			height: 300px;
+			background-color: red;
+			float: left;
+		}
+		@media screen and (max-width: 1354px){
+			#aa{
+				background-color: pink;
+			}
+			#ab{
+				margin-left: 200px;
+			}
+		}
+		@media screen and (max-width: 800px){
+			#aa{
+				width: 500px;
+			}
+			#ab{
+				margin-left: 100px ;
+
+			}
+		}
+	</style>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div id="aa"></div>
+	<div id="ab"></div>
+</body>
+</html>
